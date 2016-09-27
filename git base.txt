@@ -41,6 +41,10 @@ git rm --cached filename // remove file from git repository and not from system
 git log --oneline // information about previous commit
 git checkout <commit number> // only checks the branch temporarily
 git checkout <commit number> -b // checks the previous commit and create a branch for it
+git reset --hard <commit number> // retourne au commit precedent
+
+git clean -f // remove local changes before add
+git checkout -- . // remove untracked files
 
 // Si le merge a été fait sur github
 git pull
