@@ -1,53 +1,51 @@
 git init // crée un répertoire git (déjà fait dans PROJECTS)
 git clone URL // crée un repository pour un projet en particulier
 
-git add  <file> // stage le fichier
-git commit -m "changement fait" // ajoute au stage
-git push // envoie sur github
-
 git status -u // show untracked files
 
+// CREATION DE BRANCHE
 git branch // regarde les branches
 git branch <branch-name> // crée la branche
 git checkout -b  <branch-name> // crée la branch branch-name et change sur la branche
 git checkout <branch-name> // change sur la branche branch-name
-
 git push <remote> <branch-name> // ajoute la branche sur github <remote = origin>
 
-(modifier la branche)
-git add -A
+// SUPRESSION D'UNE BRANCHE
+git branch -d <branch name> // delete la branche LOCALEMENT
+git push <remote> --delete <branch-name> // delete la branche sur github
+
+// MODIFICATION D'UNE BRANCHE
+git add --a
 git commit -m "commentaire"
 git push origin <branch name>
 
-git checkout master
+// PULL BRANCH
+git pull remote <branch name>
+
+// MERGE BRANCHE
+git merge master // on regle les  conflit avec master sur la branche
 git merge <branch name> // local
 git commit -m "merging xxx"
 git push // merge online
 
+// REMOTE SETTINGS
 git remote -v //show remotes with URL
 git remote add <remote-name> URL // add remote
 git remote rm <remote-name> // removes remote
 git push --set-upstream origin master // default push destination
 git remote set-url <remote-name> git://xxxx // change url d'un remote
 
-git branch -d <branch name> // delete la branche LOCALEMENT
-git push <remote> --delete <branch-name> // delete la branche sur github
-
+// FILE AND FOLDER
 git mv oldname newname // renome un fichier
-
 git rm filename // remove file completely
 git rm --cached filename // remove file from git repository and not from system
 
+// COMMIT HISTORY
 git log --oneline // information about previous commit
 git checkout <commit number> // only checks the branch temporarily
 git checkout <commit number> -b // checks the previous commit and create a branch for it
 git reset --hard <commit number> // retourne au commit precedent
 
-git clean -f // remove local changes before add
-git checkout -- . // remove untracked files
-
-// Si le merge a été fait sur github
-git pull
-
-
-
+// OTHER
+git stash // place the local state in a dirty directory (before commit/add)
+git stash apply // brings back the changes
