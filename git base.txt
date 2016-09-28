@@ -5,6 +5,7 @@ git status -u // show untracked files
 
 // CREATION DE BRANCHE
 git branch // regarde les branches
+git branch -a // montre meme les branches online
 git branch <branch-name> // crée la branche
 git checkout -b  <branch-name> // crée la branch branch-name et change sur la branche
 git checkout <branch-name> // change sur la branche branch-name
