@@ -32,9 +32,10 @@ git push // merge online
 // REMOTE SETTINGS
 git remote -v //show remotes with URL
 git remote add <remote-name> URL // add remote
-git remote rm <remote-name> // removes remote
+git remote remove <remote-name> // removes remote
 git push --set-upstream origin master // default push destination
 git remote set-url <remote-name> git://xxxx // change url d'un remote
+git push -u <remote-name> master
 
 // FILE AND FOLDER
 git mv oldname newname // renome un fichier
