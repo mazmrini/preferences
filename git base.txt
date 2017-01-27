@@ -37,6 +37,9 @@ git push --set-upstream origin master // default push destination
 git remote set-url <remote-name> git://xxxx // change url d'un remote
 git push -u <remote-name> master
 
+// TAG
+git tag -a <tag-name> <commit no>
+
 // FILE AND FOLDER
 git mv oldname newname // renome un fichier
 git rm filename // remove file completely
