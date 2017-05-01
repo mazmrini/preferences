@@ -1,0 +1,1174 @@
+((("~/.emacs" .
+   [1 0 0 0 0 0 0 0])
+  ("-avr" .
+   [1 0 0 0])
+  ("./emacs" .
+   [2 0 0 0 0 0 0])
+  ("~/.emacs.d" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("currentFileDiriNode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("currentFileDiriNodeNb" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("printiNode" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("current" .
+   [1 0 0 0 1 0 1])
+  ("destDiriNode" .
+   [3 0 0 0 0 0 0 0 0 0 0 1])
+  ("readChars" .
+   [2 0 0 0 0 0 0 0 0])
+  ("sizeBuffer" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("r" .
+   [2])
+  ("bd_read" .
+   [2 0 0 0 0 0 0])
+  ("mode" .
+   [1 0 0 0])
+  ("isSymLink" .
+   [1 0 0 0 0 1 0 0 0])
+  ("e" .
+   [1])
+  ("pBuffer" .
+   [2 0 0 0 0 0 0])
+  ("pPathLien" .
+   [5 0 0 0 0 0 0 0 0])
+  ("bd_write" .
+   [2 0 0 0 0 0 0 0])
+  ("pPathNouveauLien" .
+   [3 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("pPathExistant" .
+   [3 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("numbytes" .
+   [5 0 0 0 0 0 0 0])
+  ("offset" .
+   [7 0 0 0 0 0])
+  ("visitedVertices" .
+   [0 0 0 0 0 0 1 0 1 0 0 0 0 0 0])
+  ("vertex" .
+   [2 0 0 0 0 0])
+  ("prepareLaurendeau" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("Laurendeau" .
+   [0 0 0 0 0 0 0 1 0 1])
+  ("needsMinSpeed" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("pathiNode" .
+   [1 0 0 0 0 0 0 0 0])
+  ("G_IFDIR" .
+   [2 0 0 0 0 0 0])
+  ("G_IRWXG" .
+   [3 0 0 0 0 0 0])
+  ("G_IRWXU" .
+   [2 0 0 0 0 0 0])
+  ("st_mode" .
+   [2 0 0 0 0 0 0])
+  ("st_blocks" .
+   [3 0 0 0 0 0 0 0 0])
+  ("removeBlockFromFreeBlocks" .
+   [0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("freeBlockNb" .
+   [11 0 0 0 0 0 0 0 0 0 2])
+  ("freeiNodeNb" .
+   [10 0 0 0 0 0 0 0 0 0 0])
+  ("getFreeBlockNumber" .
+   [0 0 0 0 0 0 0 0 0 1 2 0 1 0 0 0 0 0])
+  ("removeiNodeFromFreeiNodes" .
+   [0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("freeiNode" .
+   [14 0 0 0 0 0 0 0 4])
+  ("pDirName" .
+   [3 0 0 0 0 0 0 0])
+  ("pDir" .
+   [1 0 0 0])
+  ("parentDiriNodeNb" .
+   [6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("parentDiriNode" .
+   [5 0 0 0 0 0 2 1 0 1 0 0 0 4])
+  ("fullpath" .
+   [1 0 0 0 0 0 0 0])
+  ("deleteDirectory" .
+   [0 0 0 0 0 0 0 0 0 2 0 0 0 0 0])
+  ("isDirectory" .
+   [3 0 0 0 0 2 1 0 1 0 0])
+  ("newinodeNb" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("modifyDirEntryDirectory" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("newinode" .
+   [1 0 0 0 0 0 0 0])
+  ("modifyDirEntryiNode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("filename" .
+   [5 0 0 0 0 0 0 0])
+  ("destDiriNodeNb" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("currentFileiNodeNb" .
+   [5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("createFileInDirectory" .
+   [0 0 0 0 0 0 0 0 0 0 2 1 0 0 0 0 0 0 0 0 0])
+  ("bd_unlink" .
+   [1 0 0 0 0 0 0 0 0])
+  ("pathExists" .
+   [8 0 0 0 0 0 0 0 0 0])
+  ("doc" .
+   [2 0 0])
+  ("etc" .
+   [3 0 0])
+  ("bin" .
+   [15 0 0])
+  ("file" .
+   [1 0 0 0])
+  ("fichier" .
+   [1 0 0 0 0 0 0])
+  ("dossier" .
+   [2 0 0 0 0 0 0])
+  ("bd_hardlink" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("fileDirectoryExists" .
+   [0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0])
+  ("pDestFilename" .
+   [14 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("N_BLOCK_ON_DISK" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("findFileDirectoryiNodeNumber" .
+   [2 0 0 0 0 0 0 0 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("strlen" .
+   [4 0 0 0 0 0])
+  ("strcpy" .
+   [3 0 0 0 0 0])
+  ("strdup" .
+   [1 0 0 0 0 0])
+  ("asda" .
+   [1 0 0 0])
+  ("a" .
+   [3])
+  ("dirPath" .
+   [10 0 0 0 0 0 0])
+  ("s" .
+   [5])
+  ("fileSize" .
+   [13 0 0 0 0 0 0 0])
+  ("writeBlock" .
+   [7 0 0 0 0 0 0 0 0 0])
+  ("FREE_BLOCK_BITMAP" .
+   [2 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0])
+  ("bitmap" .
+   [1 0 0 0 0 0])
+  ("deleteBlockByNumber" .
+   [2 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0])
+  ("blockNb" .
+   [11 0 0 0 0 0 0])
+  ("buffer" .
+   [2 0 0 0 0 0])
+  ("FREE_INODE_BITMAP" .
+   [0 0 0 0 1 1 2 0 0 0 0 0 0 0 0 0 0])
+  ("WriteBlock" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("saveiNode" .
+   [13 0 0 0 0 0 0 0 0])
+  ("memset" .
+   [3 0 0 0 0 0])
+  ("bitmapBuffer" .
+   [14 0 0 0 0 0 0 0 0 0 0 0])
+  ("getFreeiNodeNumber" .
+   [4 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 3])
+  ("deleteiNode" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("donnees" .
+   [2 0 0 0 0 0 0])
+  ("deleteFileInDirectory" .
+   [2 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0])
+  ("st_nlink" .
+   [9 0 0 0 0 1 0 0])
+  ("st_link" .
+   [1 0 0 0 0 0 0])
+  ("fileiNodeNb" .
+   [11 0 0 0 0 0 0 0 0 0 0])
+  ("fileiNode" .
+   [28 0 0 0 0 0 1 0 3])
+  ("isRegularFile" .
+   [1 0 0 0 0 0 2 1 0 0 1 0 0])
+  ("G_IFREG" .
+   [11 0 0 0 0 0 0])
+  ("currentFileiNode" .
+   [4 0 0 0 0 0 0 0 0 0 3 0 0 0 0 3])
+  ("pFilename" .
+   [36 0 0 0 0 0 0 1 0])
+  ("fileExists" .
+   [5 0 0 0 0 0 0 0 0 0])
+  ("G_IFLNK" .
+   [3 0 0 0 0 0 0])
+  ("timeWaited" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("PAUSE_GAME_LOCK" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("exists" .
+   [1 0 1 0 0 0])
+  ("__pauseOrStopGame" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("__needsToPauseOrStopGame" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("source" .
+   [1 0 0 0 0 0])
+  ("$set" .
+   [1 0 0 0])
+  ("comments" .
+   [3 0 0 0 0 0 0 0])
+  ("rotate" .
+   [2 0 0 0 0 0])
+  ("robotMachine" .
+   [1 0 0 0 0 0 0 0 1 0 0 0])
+  ("desiredOrientation" .
+   [0 0 0 0 0 2 0 2 0 0 0 0 0 0 0 0 0 0])
+  ("centerY" .
+   [6 0 0 0 0 0 0])
+  ("centerX" .
+   [3 0 0 0 0 0 0])
+  ("_getRobotCenter" .
+   [0 0 0 0 0 1 1 0 0 0 0 0 0 0 0])
+  ("pi" .
+   [11 0])
+  ("sleep" .
+   [2 0 0 0 0])
+  ("ControlTowerPictureTaker" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0])
+  ("ControlTowerToDestination" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("orientation" .
+   [9 0 0 0 0 0 0 0 0 0 0])
+  ("radius" .
+   [1 0 0 0 0 0])
+  ("obstaclesROI" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("randomIndex" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("DRAWING_FRAME_CENTER" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("obstacleROI" .
+   [2 0 0 0 0 0 0 0 0 0 2])
+  ("obstacleLocator" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("imageName" .
+   [1 0 0 0 0 0 0 0 0])
+  ("listdir" .
+   [1 0 0 0 0 0 0])
+  ("daROI" .
+   [1 0 0 0 0])
+  ("imPath" .
+   [5 0 0 0 0 0])
+  ("pathCopy" .
+   [2 0 0 0 0 0 0 0])
+  ("startingPoint" .
+   [4 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("robotY" .
+   [3 0 0 0 0 0])
+  ("maxDeviationInCm" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("newEnd" .
+   [1 0 0 0 0 0])
+  ("new" .
+   [3 0 0])
+  ("distanceToLine" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("distanceToEnd" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("distanceToStart" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("findPointOnSegmentAtDistance" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("newX" .
+   [1 0 0 0])
+  ("distanceRatio" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("newSegment" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("distanceToPoint" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("__isOutOfPath" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("points" .
+   [1 0 0 0 0 0])
+  ("distanceBetweenEndPoints" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("maxDeviation" .
+   [0 0 0 0 0 2 0 0 0 0 0 0])
+  ("formatted" .
+   [2 0 0 0 0 0 0 0 0])
+  ("obstaclesCenter" .
+   [6 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ORIENTATION" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("distanceToSegment" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("segment" .
+   [18 0 0 0 0 0 0])
+  ("__modifyPath" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("stop" .
+   [4 0 0 0])
+  ("needsToStop" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("nextDestination" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("robotPilot" .
+   [11 0 0 0 0 0 1 2 2 0])
+  ("__isAboutToHitWall" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("__isAboutToHitItem" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("position" .
+   [1 0 0 0 0 0 0 0])
+  ("__drawPathLines" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("__drawPath" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("robotPositions" .
+   [0 0 0 0 0 0 4 1 1 0 0 0 0 0])
+  ("__drawRobot" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("__drawRobotLocations" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("obstacle" .
+   [7 0 0 0 0 0 0 0])
+  ("__drawObstacles" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("__loadImage" .
+   [1 0 0 0 0 0 0 1 0 0 0])
+  ("ObjectProperties" .
+   [0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0])
+  ("writeImage" .
+   [8 0 0 0 0 0 0 0 0 0])
+  ("readImage" .
+   [3 0 0 0 0 0 0 0 0])
+  ("ImageController" .
+   [2 0 0 0 0 0 2 0 0 0 0 0 0 0 0])
+  ("__readImage" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("ImageDrawer" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("obstacles" .
+   [29 0 0 0 0 0 0 0 0])
+  ("ObstacleLocator" .
+   [1 0 0 0 0 0 0 0 2 2 1 0 0 0 0])
+  ("drawCircle" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("drawingAreaROI" .
+   [2 0 0 0 0 0 0 0 2 0 0 0 0 0])
+  ("tableROI" .
+   [11 0 0 0 0 0 0 0])
+  ("takePicture" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("isGood" .
+   [5 0 0 0 0 0])
+  ("setup" .
+   [8 0 0 0 0])
+  ("prepare" .
+   [4 0 0 0 0 0 0])
+  ("TableSetup" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("tableCorners" .
+   [6 0 0 0 0 0 1 0 0 0 0 1])
+  ("onlyColors" .
+   [1 0 1 0 0 0 0 0 0 0])
+  ("kernel" .
+   [1 0 0 0 0 0])
+  ("canny" .
+   [5 0 0 0 0])
+  ("adaptive" .
+   [3 0 0 0 0 0 0 0])
+  ("adaptative" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("ATGC" .
+   [1 0 0 0])
+  ("blurred" .
+   [12 0 0 0 0 0 0])
+  ("destroyWindow" .
+   [1 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("imshow" .
+   [2 0 0 0 0 0])
+  ("imageNb" .
+   [2 0 0 0 0 0 0])
+  ("imageCopy" .
+   [4 0 0 0 0 0 0 0 0])
+  ("close" .
+   [17 0 0 0 0])
+  ("newWidth" .
+   [2 0 0 0 0 0 1 0])
+  ("ratio" .
+   [1 0 0 0 0])
+  ("width" .
+   [7 0 0 0 0])
+  ("height" .
+   [4 0 0 0 0 0])
+  ("equal" .
+   [1 0 0 0 0])
+  ("expect" .
+   [1 0 0 0 0 0])
+  ("send" .
+   [3 0 0 0])
+  ("fake" .
+   [3 0 0 0])
+  ("get" .
+   [1 0 0])
+  ("Pizza" .
+   [2 0 0 0 0])
+  ("connexionString" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("fullPath" .
+   [16 0 0 0 0 0 0 0])
+  ("value" .
+   [51 0 0 0 0])
+  ("CORNERS" .
+   [10 0 0 0 0 0 0])
+  ("OP" .
+   [25 0])
+  ("location" .
+   [2 0 0 0 0 0 0 0])
+  ("locate" .
+   [6 0 0 0 0 0])
+  ("locator" .
+   [30 0 0 0 0 0 0])
+  ("drawingArea" .
+   [12 0 0 0 0 0 0 0 0 0 1])
+  ("area" .
+   [2 0 0 0])
+  ("__detectLeftTriangle" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("left" .
+   [4 0 0 0])
+  ("LEFT" .
+   [1 0 0 0])
+  ("right" .
+   [1 0 0 0 0])
+  ("RIGHT" .
+   [1 0 0 0 0])
+  ("__detectRightTriangle" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("circles" .
+   [2 0 0 0 0 0 0])
+  ("__detectCircles" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("secondes" .
+   [6 0 0 0 0 0 0 0])
+  ("time" .
+   [1 0 0 0])
+  ("WakeupTime" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("pNext" .
+   [0 0 1 0 0])
+  ("id" .
+   [3 0])
+  ("nextThread" .
+   [0 0 0 0 0 2 1 0 0 0])
+  ("NEXTTHREAD" .
+   [0 0 0 0 2 0 0 0 0 0])
+  ("gNextThreadIDToAllocate" .
+   [1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("printf" .
+   [19 0 0 0 0 0])
+  ("mainId" .
+   [1 0 0 0 0 0])
+  ("tid" .
+   [2 0 0])
+  ("TCB" .
+   [4 0 0])
+  ("T" .
+   [2])
+  ("blur" .
+   [1 0 0 0])
+  ("rmb" .
+   [1 0 0])
+  ("drawingFrameData" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("tolerance" .
+   [3 0 0 0 0 0 0 0 0])
+  ("res" .
+   [5 0 0])
+  ("top10" .
+   [2 0 0 0 0])
+  ("to" .
+   [2 0])
+  ("data" .
+   [68 0 0 0])
+  ("getTop" .
+   [3 0 0 0 0 0])
+  ("log" .
+   [5 0 0])
+  ("console" .
+   [5 0 0 0 0 0 0])
+  ("LocatorStrategy" .
+   [0 0 0 0 0 0 1 0 0 1 0 0 0 0 0])
+  ("whiteFilter" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("rampFrames" .
+   [3 0 0 0 0 0 0 1 0 0])
+  ("__rampCamera" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("camera" .
+   [2 0 0 0 0 0])
+  ("release" .
+   [5 0 0 0 0 0 0])
+  ("key" .
+   [7 0 0])
+  ("0xFF" .
+   [3 0 0 0])
+  ("waitKey" .
+   [3 0 0 0 0 0 0])
+  ("keepBlack" .
+   [1 0 0 0 0 0 0 0 0])
+  ("removeWhite" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("img" .
+   [10 0 0])
+  ("img2" .
+   [2 0 0 0])
+  ("keepColor" .
+   [1 0 0 0 0 1 0 0 0])
+  ("cpu" .
+   [1 0 0])
+  ("ColorProcessingUnit" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("THRESH_BINARY" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("threshold" .
+   [2 0 0 0 0 0 2 0 1])
+  ("bitwise_not" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("noGreen" .
+   [1 0 0 0 0 0 0])
+  ("filteredImage" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("croppedImage" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("__filterDrawing" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("imageFilter" .
+   [0 0 0 0 0 0 0 0 1 0 1])
+  ("processingStrategies" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("strategies" .
+   [12 0 0 0 0 1 0 0 0 0])
+  ("PYTHONPATH" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("pip3" .
+   [1 0 0 0])
+  ("pip" .
+   [1 0 0])
+  ("dans" .
+   [1 0 0 0])
+  ("automatic-curly-brackets-on-newline" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("neo-tree" .
+   [1 0 0 0 0 0 0 0])
+  ("require" .
+   [3 0 0 0 0 0 0])
+  ("add-to-list" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("interactive" .
+   [7 0 0 0 0 0 0 0 0 0 0])
+  ("lambda" .
+   [4 0 0 0 0 0])
+  ("global-set-key" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("sudo" .
+   [1 0 0 0])
+  ("about" .
+   [1 0 0 0 0])
+  ("pizzas" .
+   [7 0 0 0 0 0])
+  ("getContributors" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("elpy-use-ipython" .
+   [0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0])
+  ("setq" .
+   [7 0 0 0])
+  ("exec-path-from-shell-copy-env" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("elpy-enable" .
+   [0 0 0 0 0 0 0 0 0 1 0])
+  ("setq-default" .
+   [3 0 0 0 0 0 0 0 0 0 1 0])
+  ("in" .
+   [9 0])
+  ("bob2" .
+   [2 0 0 0])
+  ("classic" .
+   [1 0 0 0 0 0 0])
+  ("byValue" .
+   [1 0 0 0 0 0 0])
+  ("byRef" .
+   [1 0 0 0 0])
+  ("cout" .
+   [9 0 0 0])
+  ("Node" .
+   [13 0 0 0])
+  ("i" .
+   [19])
+  ("bob" .
+   [4 0 0])
+  ("define-key" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("kbd" .
+   [5 0 0])
+  ("defun" .
+   [3 0 0 0 0])
+  ("prev-line-new-line-indent" .
+   [0 0 0 0 0 3 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("newline-and-indent" .
+   [0 0 0 0 3 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("auto-complete" .
+   [0 0 0 0 3 0 0 0 0 0 0 0 2])
+  ("auto-curly-indent" .
+   [2 0 0 0 0 0 0 0 6 2 1 0 0 0 0 0 0])
+  ("val" .
+   [3 0 0])
+  ("next" .
+   [9 0 0 0])
+  ("les" .
+   [1 0 0])
+  ("image" .
+   [65 0 0 0 0])
+  ("mask" .
+   [8 0 0 0])
+  ("__createHSVMask" .
+   [0 0 0 0 0 0 0 0 2 0 0 1 0 0 0])
+  ("cv2" .
+   [26 0 1])
+  ("cvtColor" .
+   [1 0 0 0 1 0 0 0])
+  ("color" .
+   [11 0 0 0 0])
+  ("COLOR_BGR2HSV" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("lowerColor" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("lower" .
+   [7 0 0 0 0])
+  ("COLOR_BGR2" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("lowerWhite" .
+   [2 0 0 0 0 0 0 0 0 1])
+  ("np" .
+   [2 0])
+  ("bitwise_and" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("hls" .
+   [2 0 0])
+  ("inRange" .
+   [0 0 0 0 1 0 0])
+  ("upperWhite" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("__createHLSMask" .
+   [0 0 0 0 0 0 0 0 0 0 1 1 0 0 0])
+  ("epsilon" .
+   [7 0 0 0 0 0 0])
+  ("upper" .
+   [1 0 0 0 0])
+  ("isNumberOfArgValid" .
+   [0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("root" .
+   [10 0 0 0])
+  ("std" .
+   [2 0 0])
+  ("argc" .
+   [13 0 0 0])
+  ("endl" .
+   [5 0 0 0])
+  ("vector" .
+   [25 0 0 0 0 0])
+  ("matrice" .
+   [81 0 1 0 0 0 0])
+  ("argv" .
+   [5 0 0 0])
+  ("sqrt" .
+   [1 0 0 0])
+  ("nbRows" .
+   [6 0 0 0 0 0])
+  ("push_back" .
+   [2 0 0 0 0 0 0 0 0])
+  ("size" .
+   [14 0 0 0])
+  ("col" .
+   [4 0 0])
+  ("temp" .
+   [1 0 0 0])
+  ("row" .
+   [5 0 0])
+  ("erase" .
+   [1 0 0 0 0])
+  ("sousMatrice" .
+   [0 0 0 0 4 2 0 0 0 0 0])
+  ("sm" .
+   [1 0])
+  ("ParametresThread" .
+   [7 0 0 0 1 4 2 3 0 0 1 0 0 0 0 0])
+  ("param" .
+   [3 0 0 0 0])
+  ("mat" .
+   [1 0 0])
+  ("newPt" .
+   [3 0 0 0 0])
+  ("pt" .
+   [33 0])
+  ("det" .
+   [19 0 0])
+  ("calculerDeterminant" .
+   [0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("d" .
+   [15])
+  ("calcul" .
+   [0 0 0 0 0 1])
+  ("threads" .
+   [4 0 0 0 0 0 0])
+  ("pthread_t" .
+   [3 0 0 0 0 0 0 0 0])
+  ("malloc" .
+   [1 0 0 0 0 0])
+  ("thread_data" .
+   [8 0 0 0 0 0 0 0 0 0 0])
+  ("pthread_join" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("signe" .
+   [1 0 0 0 0])
+  ("free" .
+   [9 0 0 0])
+  ("openCvService" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("OpenCvServices" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("detect" .
+   [1 0 0 0 0 0])
+  ("openCvServices" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("findContour" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("imageProcessor" .
+   [3 0 0 0 0 0 3 1 11 0 0 0 0 2])
+  ("approxDP" .
+   [2 0 0 0 0 1 0 0])
+  ("sortedContours" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("corners" .
+   [10 0 0 0 0 0 0])
+  ("drawContours" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("contours" .
+   [13 0 0 0 0 0 0 0])
+  ("thickness" .
+   [2 0 0 0 0 0 0 0 0])
+  ("contour" .
+   [0 0 0 1 0 0 0])
+  ("gpThreadCourant" .
+   [3 0 0 8 2 3 1 0 1 0 0 0 0 0 0])
+  ("suivant" .
+   [1 0 0 0 0 0 0])
+  ("tcb" .
+   [13 0 0])
+  ("THREAD_EXECUTE" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("initialThread" .
+   [2 0 0 0 1 0 2 1 1 0 0 0 0])
+  ("mainThread" .
+   [6 0 0 0 0 2 1 0 0 0])
+  ("etat" .
+   [1 0 0 0])
+  ("pSuivant" .
+   [4 0 0 0 1 0 1 0])
+  ("pPrecedent" .
+   [4 0 1 3 4 0 0 0 0 0])
+  ("gThreadTable" .
+   [5 0 0 0 0 0 1 1 0 0 0 1])
+  ("NULL" .
+   [22 0 0 0])
+  ("THREAD_PRET" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("done" .
+   [9 0 0 0])
+  ("getTop10" .
+   [2 0 0 0 0 0 0 0])
+  ("url" .
+   [3 0 0])
+  ("top_pizzas" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("connect" .
+   [3 0 0 0 0 0 0])
+  ("then" .
+   [1 0 0 0])
+  ("catch" .
+   [1 0 0 0 0])
+  ("err" .
+   [6 0 0])
+  ("showImage" .
+   [4 0 0 0 0 0 0 1 0])
+  ("pyramid" .
+   [1 0 0 0 0 0 0])
+  ("morphologyEx" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("morphologyOpen" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("opened" .
+   [2 0 0 0 0 0])
+  ("locations" .
+   [1 0 0 0 0 0 0 0 0])
+  ("ImageProcessor" .
+   [0 0 0 0 0 2 4 2 8 0 1 0 0 0])
+  ("TableLocator" .
+   [6 0 0 0 0 1 0 1 0 0 0 0])
+  ("worldCamera" .
+   [8 0 0 0 0 0 4 1 1 0 0])
+  ("WorldCamera" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("Locator" .
+   [15 0 0 0 0 0 0])
+  ("DrawingAreaLocator" .
+   [1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("table" .
+   [19 0 0 0 0])
+  ("drawContour" .
+   [6 0 0 0 0 0 1 1 0 0 1])
+  ("dataFile" .
+   [2 0 0 0 0 0 0 0])
+  ("answerPoints" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("CENTER" .
+   [5 0 0 0 0 0])
+  ("objectDetector" .
+   [0 0 0 0 0 0 0 2 1 0 0 0 0 0])
+  ("ip" .
+   [22 0])
+  ("RobotDetector" .
+   [1 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("robot" .
+   [38 0 0 0 0])
+  ("RobotLocator" .
+   [4 0 0 0 0 1 1 0 0 0 0 0])
+  ("__raiseRobotNotFoundException" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("newLength" .
+   [1 0 0 0 0 0 0 0 0])
+  ("length" .
+   [1 0 0 0 0 0])
+  ("WIP" .
+   [1 0 0])
+  ("drawObstacle" .
+   [1 0 0 0 0 1 0 0 0 0 0 0])
+  ("drawingImage" .
+   [1 0 0 0 0 0 2 1 0 0 0 1])
+  ("toCenterX" .
+   [5 0 0 0 0 0 0 0 0])
+  ("toCenterY" .
+   [3 0 0 0 0 0 0 0 0])
+  ("append" .
+   [5 0 0 0 0 0])
+  ("REAL_CENTER" .
+   [13 0 0 0 0 0 0 0 0 0 0])
+  ("toBotX" .
+   [4 0 0 0 0 0])
+  ("toBotY" .
+   [1 0 0 0 0 0])
+  ("template" .
+   [1 0 0 0 0 0 0 0])
+  ("zoomFactor" .
+   [3 0 0 0 0 1 0 0 0 0])
+  ("zoom" .
+   [3 0 0 0])
+  ("exports" .
+   [2 0 0 0 0 0 0])
+  ("postOrder" .
+   [1 0 0 0 0 0 0 0 0])
+  ("req" .
+   [5 0 0])
+  ("body" .
+   [6 0 0 0])
+  ("postalCode" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("MongoClient" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("date" .
+   [2 0 0 0])
+  ("hours" .
+   [3 0 0 0 0])
+  ("confirmationMessage" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("db" .
+   [2 0])
+  ("dbOrders" .
+   [1 0 0 0 0 0 0 0])
+  ("result" .
+   [3 0 0 0 0 0])
+  ("errorMessage" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("app" .
+   [2 0 0])
+  ("orders" .
+   [1 0 0 0 0 0])
+  ("post" .
+   [1 0 0 0])
+  ("deleteOrders" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("avg" .
+   [3 0 0])
+  ("SetupProperties" .
+   [0 0 0 0 0 3 1 1 0 0 0 0 0 0 0])
+  ("camSetup" .
+   [2 0 0 0 0 0 0 0])
+  ("processed" .
+   [4 0 0 0 0 0 0 0 0])
+  ("Segment" .
+   [13 0 0 0 0 0 0])
+  ("start" .
+   [10 0 0 0 0])
+  ("hypot" .
+   [5 0 0 0 0])
+  ("point" .
+   [7 0 0 0 0])
+  ("fabs" .
+   [1 0 0 0])
+  ("ptX" .
+   [2 0 0])
+  ("startX" .
+   [13 0 0 0 0 0])
+  ("endX" .
+   [4 0 0 0])
+  ("endY" .
+   [4 0 0 0])
+  ("startY" .
+   [10 0 0 0 0 0])
+  ("distance" .
+   [12 0 0 0 0 0 1 0])
+  ("point1" .
+   [2 0 0 0 0 0])
+  ("point2" .
+   [2 0 0 0 0 0])
+  ("end" .
+   [5 0 0])
+  ("distanceBetweenPoints" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("ptY" .
+   [1 0 0])
+  ("robotRadiusInCm" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 1])
+  ("pixelWorldCameraRatio" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("WorldItemsParameter" .
+   [0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("robotRadius" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("pathFinder" .
+   [17 0 0 0 0 0 0 0 0 0])
+  ("findPath" .
+   [4 0 0 0 0 0 0 0])
+  ("RobotPilot" .
+   [5 0 0 0 0 0 1 1 0 0])
+  ("locateRobot" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("__locateRobot" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("__draw" .
+   [4 0 0 0 0 0])
+  ("addRobotPosition" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("destination" .
+   [20 0 0 0 0 0 0 0 0 0 0])
+  ("__locate" .
+   [0 0 0 0 0 0 0 1])
+  ("robotCenter" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("destX" .
+   [10 0 0 2 0])
+  ("destY" .
+   [7 0 0 0 0])
+  ("robotX" .
+   [6 0 0 0 0 0])
+  ("arrivedY" .
+   [1 0 0 0 0 0 0 0])
+  ("path" .
+   [62 0 0 0])
+  ("ControlTower" .
+   [2 0 0 1 0 0 0 3 0 0 0 0])
+  ("readData" .
+   [2 0 0 0 0 0 0 0])
+  ("PathFinder" .
+   [5 0 0 0 0 0 0 0 0 0])
+  ("TABLE_ROI" .
+   [5 0 0 0 0 0 0 0 0])
+  ("obstaclesAmplify" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("CORNERS_AMPLIFY" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("SP" .
+   [7 0])
+  ("__update" .
+   [2 0 0 0 0 0 0 0])
+  ("controlTower" .
+   [5 0 0 0 0 0 0 0 0 0 0 0])
+  ("controlTowerStrategy" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("imageController" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("init" .
+   [1 0 0 0])
+  ("__formatObstaclesCenter" .
+   [1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("__amplifyObstacles" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("robotAngleForPictures" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("picNo" .
+   [2 0 0 0 0])
+  ("rotation" .
+   [9 0 0 0 0 0 0 0])
+  ("intensity" .
+   [1 0 0 0 0 0 1 0 0])
+  ("drawingCoordinates" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("DRAWING_CORNERS_ROBOT_IN_WORLD_REFERENCE" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("drawingInfos" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("_locateRobot" .
+   [0 0 0 0 0 1 0 0 1 0 0 0])
+  ("__getReverseRotation" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("go" .
+   [1 0])
+  ("route" .
+   [1 0 0 0 0])
+  ("timer" .
+   [1 0 0 0 0])
+  ("isTimerStarted" .
+   [1 0 0 0 0 0 0 2 0 0 0 0 0 0])
+  ("secondsLeft" .
+   [0 0 0 0 0 0 0 2 0 0 0])
+  ("secondsElapsed" .
+   [2 0 0 0 0 0 0 0 0 2 0 0 0 0])
+  ("jsonify" .
+   [2 0 0 0 0 0 0])
+  ("timeElapsedToString" .
+   [0 0 0 0 0 1 3 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("elapsed" .
+   [4 0 0 0 0 0 0])
+  ("startTime" .
+   [3 0 0 0 0 0 0 0 0])
+  ("isTimeStarted" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("inodeTmp" .
+   [6 0 0 0 0 0 0 0])
+  ("iNodeEntry" .
+   [34 0 0 0 0 0 0 3 0 0])
+  ("inode" .
+   [26 0 0 0 0])
+  ("strncpy" .
+   [1 0 0 0 0 0 0])
+  ("getiNodeByNumber" .
+   [2 0 0 0 0 3 3 2 6 2 0 0 0 0 0 0])
+  ("ROOT_INODE" .
+   [1 0 0 0 0 1 0 0 0 0])
+  ("Block" .
+   [25 0 0 0 0])
+  ("block" .
+   [13 0 0 0 0])
+  ("ReadBlock" .
+   [10 0 0 0 0 0 0 0 0])
+  ("BLOCK_SIZE" .
+   [31 0 0 0 0 0 0 0 0 0])
+  ("DirEntry" .
+   [41 0 0 0 0 0 0 0])
+  ("tmpDir" .
+   [10 0 0 0 0 0])
+  ("BASE_BLOCK_INODE" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Filename" .
+   [7 0 0 0 0 0 0 0])
+  ("FILENAME_SIZE" .
+   [1 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("GetFilenameFromPath" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("fileName" .
+   [5 0 0 0 0 0 0 0])
+  ("pFilepath" .
+   [3 0 0 0 0 1 0 0 1])
+  ("p" .
+   [7])
+  ("c" .
+   [6])
+  ("GetDirFromPath" .
+   [0 0 0 0 1 0 1 0 1 0 0 0 0 0])
+  ("strchr" .
+   [3 0 0 0 0 0])
+  ("strcmp" .
+   [3 0 0 0 0 0])
+  ("txt" .
+   [3 0 0])
+  ("t" .
+   [12])
+  ("tmp" .
+   [29 0 0])
+  ("tmpPath" .
+   [17 0 0 0 0 0 0])
+  ("b" .
+   [11])
+  ("token" .
+   [8 0 0 0 0])
+  ("findFileInDirectory" .
+   [0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("iNode" .
+   [39 0 0 0 0])
+  ("inodeNb" .
+   [8 0 0 0 0 0 0])
+  ("goToDirectory" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("fileBlock" .
+   [3 0 0 0 0 0 0 0 0])
+  ("findFileiNode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("findDirectoryBlockNumber" .
+   [0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("findFileiNodeNumber" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("filePathToiNodeNumber" .
+   [0 0 0 0 0 1 0 0 2 1 0 1 0 0 0 0 0 0 0 0 0])
+  ("iNodeNb" .
+   [12 0 0 0 0 0 3])
+  ("memcpy" .
+   [3 0 0 0 0 0])
+  ("gstat" .
+   [2 0 0 0 0])
+  ("iNodeStat" .
+   [36 0 0 0 0 0 1 1 1])
+  ("strtok" .
+   [1 0 0 0 0 0])
+  ("filePathToBlockNumber" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("pDirLocation" .
+   [0 0 0 0 0 0 0 1 0 0 0 0])
+  ("ppListeFichiers" .
+   [1 0 0 0 0 1 0 1 0 1 0 0 0 0 0])
+  ("nbFichiers" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("w" .
+   [2])
+  ("tmpList" .
+   [1 0 0 0 0 0 0])
+  ("st_ino" .
+   [6 0 0 0 0 0])
+  ("findDirectoryiNodeNumber" .
+   [1 0 0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 0 0 1 1 0 0 0])
+  ("diriNode" .
+   [25 0 0 0 1 0 0 2])
+  ("diriNodeNb" .
+   [10 0 0 0 0 0 0 0 0 1])
+  ("st_size" .
+   [13 0 0 0 0 0 0])
+  ("filesSize" .
+   [9 0 0 0 0 0 0 1 0])
+  ("NewSize" .
+   [4 0 0 0 0 0 0])
+  ("image2" .
+   [2 0 0 0 0 0])
+  ("tableCenterLines" .
+   [1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("__getSpeedFactor" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])))
