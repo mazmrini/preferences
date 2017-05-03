@@ -1,13 +1,3 @@
-cd q3userthread/
-ls
-./TestThread 
-make
-./TestThread
-make
-make
-./TestThread
-make
-make
 ./TestThread
 make
 ./TestThread
@@ -126,3 +116,13 @@ make
 ./TestThread
 make
 ./TestThread
+ls
+ls
+ll
+cd
+ls
+cd ..
+ls
+cd Roaming/
+ls -a
+cp .emacs .emacs.d/init.el

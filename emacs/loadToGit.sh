@@ -1,0 +1,1 @@
+cp -avr ~/.emacs.d .
