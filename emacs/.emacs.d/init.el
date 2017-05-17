@@ -48,7 +48,6 @@
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
-(setq frame-title-format "Emacs")
 (show-paren-mode)
 (set-default 'cursor-type 'bar)
 (global-hl-line-mode)
