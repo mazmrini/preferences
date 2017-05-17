@@ -1,4 +1,18 @@
-((("answer" .
+((("frame-title-format" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("occurences" .
+   [4 0 0 0 0 0 0 0 0 0])
+  ("aSet" .
+   [5 0 0 0])
+  ("randomNumber" .
+   [9 0 0 0 0 0 0 1 0 0 0 0])
+  ("randInt" .
+   [4 0 0 0 0 0 0])
+  ("maxLen" .
+   [4 0 0 0 0 0])
+  ("aList" .
+   [12 0 0 0 0])
+  ("answer" .
    [2 0 0 0 0 0])
   ("findQuadZeros" .
    [0 0 0 0 0 1 0 0 0 0 0 0 0])
@@ -253,7 +267,7 @@
   ("obstaclesROI" .
    [1 0 0 0 0 0 0 0 0 0 0 0])
   ("randomIndex" .
-   [1 0 0 0 0 0 0 0 0 0 0])
+   [6 0 0 0 0 0 0 0 1 0 0])
   ("DRAWING_FRAME_CENTER" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("obstacleROI" .
@@ -1061,7 +1075,7 @@
   ("elapsed" .
    [4 0 0 0 0 0 0])
   ("startTime" .
-   [3 0 0 0 0 0 0 0 0])
+   [6 0 0 0 0 0 0 0 0])
   ("isTimeStarted" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0])
   ("inodeTmp" .
@@ -1187,4 +1201,16 @@
   ("fullscreen" .
    [0 0 0 0 0 0 1 0 0 0])
   ("maximized" .
-   [0 0 0 0 0 1 0 0 0])))
+   [0 0 0 0 0 1 0 0 0])
+  ("letters" .
+   [2 0 0 0 0 0 0])
+  ("totalTosses" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("coinToss" .
+   [1 0 0 0 0 0 0 0])
+  ("head" .
+   [2 0 0 0])
+  ("totalHead" .
+   [4 0 0 0 0 0 0 0 0])
+  ("percentHead" .
+   [1 0 0 0 0 0 0 0 0 0 0])))

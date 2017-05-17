@@ -54,6 +54,8 @@
 (global-hl-line-mode)
 (global-linum-mode t)
 (global-visual-line-mode t)
+;; emacs title
+(setq frame-title-format "%b")
 
 
 ;; backup files
@@ -81,7 +83,6 @@
 (setq-default c-basic-offset 4)
 ;;(add-hook 'c-mode-common-hook '(lambda () (c-toggle-auto-state 1)))
 ;;(add-hook 'c-mode-common-hook '(lambda () (c-toggle-hungry-state 1)))
-
 
 
 ;; irony
