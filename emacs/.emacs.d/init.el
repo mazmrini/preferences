@@ -103,6 +103,10 @@
   '(add-to-list 'company-backends 'company-irony))
 
 
+;; org-mode
+(setq org-log-done 'time)
+
+
 ;; behavior
 (custom-set-variables '(initial-frame-alist (quote ((fullscreen . maximized)))))
 (setq confirm-kill-emacs 'y-or-n-p)
