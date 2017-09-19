@@ -1,7 +1,5 @@
 ./TestThread
 make
-./TestThread
-make
 make
 make
 ./TestThread
@@ -126,3 +124,5 @@ ls
 cd Roaming/
 ls -a
 cp .emacs .emacs.d/init.el
+ls
+./Copy_DLLs.bat 

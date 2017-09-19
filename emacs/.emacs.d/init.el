@@ -48,12 +48,13 @@
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
-(setq frame-title-format "Emacs")
 (show-paren-mode)
 (set-default 'cursor-type 'bar)
 (global-hl-line-mode)
 (global-linum-mode t)
 (global-visual-line-mode t)
+;; emacs title
+(setq frame-title-format "%b")
 
 
 ;; backup files
@@ -83,7 +84,6 @@
 ;;(add-hook 'c-mode-common-hook '(lambda () (c-toggle-hungry-state 1)))
 
 
-
 ;; irony
 (add-hook 'c++-mode-hook 'irony-mode)
 (add-hook 'c-mode-hook 'irony-mode)
@@ -101,6 +101,10 @@
 
 (eval-after-load 'company
   '(add-to-list 'company-backends 'company-irony))
+
+
+;; org-mode
+(setq org-log-done 'time)
 
 
 ;; behavior
